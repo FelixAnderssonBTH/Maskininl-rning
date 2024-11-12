@@ -1,4 +1,6 @@
 '''
+Felix Andersson, Janine de Vries, DV2626
+
 
 A program to analyze the distribution of values in each column of a CSV file.
 

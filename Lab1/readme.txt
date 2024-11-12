@@ -1,3 +1,5 @@
+Felix Andersson, Janine de Vries, DV2626
+
 In order to run the program these installations are needed:
 
   >> pip install pandas scikit-learn imbalanced-learn numpy jupyter matplotlib
