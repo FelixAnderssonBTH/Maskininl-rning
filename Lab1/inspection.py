@@ -1,6 +1,6 @@
 '''
 
-Bara lite lek kod för att kunna analyzera datan så vi vet lite vad vi ska kolla efter
+A program to analyze the distribution of values in each column of a CSV file.
 
 
 '''
