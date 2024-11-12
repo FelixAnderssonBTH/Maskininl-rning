@@ -10,10 +10,9 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 
 # Load the CSV file into a DataFrame
-file_path = 'Lab1/red.csv'  # Replace with your file path
+file_path = 'Lab1/red.csv' 
 df = pd.read_csv(file_path, delimiter=';')
 
-# Extract each column as a separate array
 fixed_acidity = df["fixed acidity"].values
 volatile_acidity = df["volatile acidity"].values
 citric_acid = df["citric acid"].values
