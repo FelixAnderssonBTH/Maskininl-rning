@@ -1,6 +1,8 @@
 '''
+Felix Andersson, Janine de Vries, DV2626
 
-Bara lite lek kod för att kunna analyzera datan så vi vet lite vad vi ska kolla efter
+
+A program to analyze the distribution of values in each column of a CSV file.
 
 
 '''
@@ -10,10 +12,9 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 
 # Load the CSV file into a DataFrame
-file_path = 'Lab1/red.csv'  # Replace with your file path
+file_path = 'Lab1/red.csv' 
 df = pd.read_csv(file_path, delimiter=';')
 
-# Extract each column as a separate array
 fixed_acidity = df["fixed acidity"].values
 volatile_acidity = df["volatile acidity"].values
 citric_acid = df["citric acid"].values
